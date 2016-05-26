@@ -1,0 +1,10 @@
+* Helper to keep brew up2date
+Start the script with rake -f brew_update.rb update.
+Every outdated package is questioned. Answer with:
+y - the package will be updated
+n - the package will not be updated
+a - the package will automatically be updated
+q - quit the update process
+
+Packages that are automatically updated are stored in ~/.brew_auto_updates.
+
